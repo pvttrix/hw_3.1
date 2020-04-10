@@ -1,0 +1,44 @@
+* ,*:before, *:after{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+.wrapper {
+    margin:0 auto;
+    display:flex;
+    max-width: 1120px;
+    justify-content: space-between;
+}
+
+.content {
+    text-align:center;
+    margin:25px;
+    padding:15px;
+}
+
+.icon:before{
+    background-color: blue;
+    height:35px;
+    width:35px;
+}
+
+.fas {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+    background: #1275b9;
+    border-radius: 50%;
+    font-size: 40px;
+    color: #fff;
+    margin:15px;
+    transition: all .1s ease-in;
+}
+
+.fas:hover{
+    background-color: #fff;
+    border:1px solid #1275b9;
+    color:#1275b9;
+}
