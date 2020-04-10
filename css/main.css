@@ -9,6 +9,7 @@
     display:flex;
     max-width: 1120px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .content {
